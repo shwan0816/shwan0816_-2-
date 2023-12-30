@@ -1,0 +1,40 @@
+
+.dropdown{
+  position: relative;
+  display: block;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 15px;
+  margin-right: 85%;
+  padding: 5px 10px 5px 10px;
+
+}
+
+.button {
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    top: 0%;
+    left: 100%;
+}
+
+.dropdown-content a {
+    border: 1px solid #000;
+    text-decoration : none;
+    display : block;
+    color : #000000;
+    font-size: 16px;
+    margin-top: 3px;
+}
+
